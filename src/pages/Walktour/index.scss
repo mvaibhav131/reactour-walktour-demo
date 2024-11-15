@@ -1,0 +1,35 @@
+/* SCSS for styling the button and Walktour */
+.tour-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .tour-button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+  }
+  
+  .tour-button:focus {
+    outline: none;
+  }
+  
+  #tour-container {
+    margin-top: 20px;
+  }
+  
+  .step-element {
+    padding: 20px;
+    background-color: #f9f9f9;
+    color:black;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    border-radius: 8px;
+  }
+  
