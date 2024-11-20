@@ -8,7 +8,7 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path='/' element={
+        <Route path='/reactour-walktour-demo' element={
           <div>
           <h3>Select a tour to view:</h3>
           <Link to="/react-tour"><button style={{ marginRight: "10px" }}>View React Tour</button> </Link>
